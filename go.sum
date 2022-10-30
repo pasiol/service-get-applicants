@@ -1,0 +1,11 @@
+github.com/beevik/etree v1.1.0 h1:T0xke/WvNtMoCqgzPhkX2r4rjY3GDZFi+FjpRZY2Jbs=
+github.com/beevik/etree v1.1.0/go.mod h1:r8Aw8JqVegEf0w2fDnATrX9VpkMcyFeM0FhwO62wh+A=
+github.com/dimchansky/utfbom v1.1.1 h1:vV6w1AhK4VMnhBno/TPVCoK9U/LP0PkLCS9tbxHdi/U=
+github.com/dimchansky/utfbom v1.1.1/go.mod h1:SxdoEBH5qIqFocHMyGOXVAybYJdr71b1Q/j0mACtrfE=
+github.com/google/uuid v1.2.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/google/uuid v1.3.0 h1:t6JiXgmwXMjEs8VusXIJk2BXHsn+wx8BZdTaoZ5fu7I=
+github.com/google/uuid v1.3.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
+github.com/pasiol/gopq v0.1.8 h1:BAXb84wbxPj+a0MrkXBXrtlrBW60V8fjRMAbvHElkCo=
+github.com/pasiol/gopq v0.1.8/go.mod h1:0J8rG+bxnUv4bqAxOLkup5ImznWfD+FVUfi1QtHBj4o=
+github.com/pasiol/serviceLog v0.0.0-20210420091759-4e7fe80f773c h1:cW9Y+WOp1nE3DPc5TenyZmTUsInkTM1JyTfkTSdPu6A=
+github.com/pasiol/serviceLog v0.0.0-20210420091759-4e7fe80f773c/go.mod h1:qdI645FwHV8RbqLiijokRj4nMd1BMm9lKncZnidm1R0=
