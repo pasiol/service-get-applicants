@@ -20,11 +20,12 @@ var (
 	// Version for build
 	Version string
 	// Build for build
-	Build                   string
-	jobName                 = "service-get-applicants"
-	debugState              = false
-	archieveApplicantConfig = ""
-	insertApplicantConfig   = ""
+	Build                      string
+	jobName                    = "service-get-applicants"
+	debugState                 = false
+	archieveApplicantConfig    = ""
+	insertApplicantConfig      = ""
+	createNewUserAccountConfig = ""
 )
 
 func readCSVFromString(data string) ([][]string, error) {
@@ -143,7 +144,7 @@ func createNewUserAccount(user []string) (int, error) {
 		return 0, err
 	}
 	c := config.GetPrimusConfig()
-	cardID, _, err := pq.ExecuteAtomicImportQuery(userAccountFile, c.Host, c.Port, c.User, c.Password, "spaikanvastaanotto_uudentyyppinen_wilmatunnus")
+	cardID, _, err := pq.ExecuteAtomicImportQuery(userAccountFile, c.Host, c.Port, c.User, c.Password, createNewUserAccountConfig)
 	if err == nil && cardID > 0 {
 		if cardID == 0 {
 			return 0, errors.New("inserting the new user to Wilma user registry failed")
